@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6992613907816931909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6992613907816931911}
+  - component: {fileID: 6992613907816931910}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6992613907816931911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6992613907816931909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 165.82025, y: -124.06055, z: -4.8501587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6992613907816931910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6992613907816931909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc1032d3b27795e428f7ba36a4966153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballParent: {fileID: 0}
+  previewBallParent: {fileID: 0}
+  mainCamera: {fileID: 0}
+  previewCamera: {fileID: 0}
+  canvas: {fileID: 0}
+  canvasRect: {fileID: 0}
+  ballMenu: {fileID: 0}
+  openBallMenuButton: {fileID: 0}
+  beatIndicatorsParent: {fileID: 0}
+  beatIndicatorPrefab: {fileID: 4869104351058711918, guid: 19d805b00d7d100469f291ce0ca796e7, type: 3}
+  minBallMass: 1
+  maxBallMass: 10
+  minBallScale: 0.5
+  maxBallScale: 10
+  minPitch: 0
+  maxPitch: 3
+  minBounceY: 5
+  maxBounceY: 20
+  bpm: 120
+  beatsPerTime: 4
+  clipSettings:
+  - clip: {fileID: 8300000, guid: cce50fbf83a2db14cac818eecd5e0cd8, type: 3}
+    color: {r: 1, g: 0.3820755, b: 0.3820755, a: 1}
+  - clip: {fileID: 8300000, guid: a6f6fb71f7c1e1a4e9f245bf964e500e, type: 3}
+    color: {r: 1, g: 0.683732, b: 0.3803922, a: 1}
+  - clip: {fileID: 8300000, guid: 8ee0740eb6d2aef4eb659bc93bb65b7c, type: 3}
+    color: {r: 1, g: 0.9445447, b: 0.3803922, a: 1}
+  - clip: {fileID: 8300000, guid: fe13b9772be4ce344be1801f80ea3970, type: 3}
+    color: {r: 0.6700981, g: 1, b: 0.3803922, a: 1}
+  - clip: {fileID: 8300000, guid: 7773559a16f0bd447a4b83d9d6de5aa4, type: 3}
+    color: {r: 0.3803922, g: 1, b: 0.70503634, a: 1}
+  - clip: {fileID: 8300000, guid: d09c7e96f0990e04ebaafa2e7e866cc3, type: 3}
+    color: {r: 0.3803922, g: 0.6250906, b: 1, a: 1}
+  - clip: {fileID: 8300000, guid: a3544a63783d5aa49989645ff2e66ddf, type: 3}
+    color: {r: 0.6559792, g: 0.3803922, b: 1, a: 1}
+  - clip: {fileID: 8300000, guid: 5addafb6a97df044890c4f9c997e2933, type: 3}
+    color: {r: 1, g: 0.3803922, b: 0.931555, a: 1}
+  spawnMethod: 1
+  maxBalls: 9
+  startSpawnPositionLine: {x: -75, y: 0, z: 0}
+  spawnSpacingLine: 20
+  centerSpawnPositionCircle: {x: 0, y: 0, z: 0}
+  spawnSpacingCircle: 40
+  spawnRadiusCircle: 50
+  ballPrefab: {fileID: 4984394523093511491, guid: 2a121339da02c0141b60872fe6eeba8a, type: 3}
